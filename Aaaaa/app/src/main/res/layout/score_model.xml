@@ -1,0 +1,131 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_score_model">
+        <LinearLayout
+            android:id="@+id/clickable_outer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="2dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/sport_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:background="@drawable/border_oneside">
+
+                <ImageView
+                    android:id="@+id/team1img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+                    android:id="@+id/team1name"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="3.5" />
+
+                <TextView
+                    android:id="@+id/team1score"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:background="@drawable/border_oneside">
+
+
+                <ImageView
+                    android:id="@+id/team2img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:id="@+id/team2name"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="3.5" />
+
+                <TextView
+                    android:id="@+id/team2score"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:background="@drawable/border_oneside">
+
+               <TextView
+                   android:id="@+id/league_name"
+                   android:layout_width="0dp"
+                   android:layout_height="40dp"
+                   android:layout_margin="10dp"
+                   android:layout_weight="3" />
+
+               <TextView
+                   android:id="@+id/live_str"
+                   android:layout_width="0dp"
+                   android:layout_height="40dp"
+                   android:layout_margin="10dp"
+                   android:layout_weight="2" />
+
+
+           </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+

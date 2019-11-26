@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akhilesh.aaaaa">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SNUSPORTS"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login"
+            android:label="SNU SPORTS"
+
+  android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".jsettings"
+            android:label="Settings"/>
+
+        <activity android:name=".jleague"
+            android:label="Leagues"/>
+        <activity android:name=".jhelp" />
+        <activity android:name=".jcatalogue"
+            android:label="Player Catalogue"/>
+        <activity android:name=".slsports"
+            android:label="SNUSL SPORTS"/>
+        <activity android:name=".pointstable"
+            android:label="POINTS TABLE"></activity>
+        <activity android:name=".snusports"/>
+<activity android:name=".slplayers"
+    android:label="SNUSL PlAYERS"/>
+        <activity android:name=".jscore_cricket"></activity>
+
+        <activity android:name=".MainActivity"
+
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>

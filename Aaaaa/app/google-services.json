@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "609611945612",
+    "firebase_url": "https://snu-sports.firebaseio.com",
+    "project_id": "snu-sports",
+    "storage_bucket": "snu-sports.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609611945612:android:1beb05ceb791a495",
+        "android_client_info": {
+          "package_name": "com.example.akhilesh.aaaaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609611945612-f4jst40061eb9uoc6ivr07nsbpp014si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akhilesh.aaaaa",
+            "certificate_hash": "1dd140dfc796a2ef81bc7d44818a2219d0758cf8"
+          }
+        },
+        {
+          "client_id": "609611945612-f9eli7ra4ki5dh83bbsnfkkd56bslqo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV5Q2RwlHGaJHDnAmN3sY3pU1VOK0CGxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609611945612-f9eli7ra4ki5dh83bbsnfkkd56bslqo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609611945612:android:fabd09ec887b2e4b",
+        "android_client_info": {
+          "package_name": "com.example.akhilesh.admincheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609611945612-jnqijc25bsh5717gkrqr2s2kipccgi9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akhilesh.admincheck",
+            "certificate_hash": "1dd140dfc796a2ef81bc7d44818a2219d0758cf8"
+          }
+        },
+        {
+          "client_id": "609611945612-f9eli7ra4ki5dh83bbsnfkkd56bslqo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV5Q2RwlHGaJHDnAmN3sY3pU1VOK0CGxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609611945612-f9eli7ra4ki5dh83bbsnfkkd56bslqo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
